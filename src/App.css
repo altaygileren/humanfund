@@ -1,32 +1,417 @@
-.App {
+.imgs {
+  width: 100%;
+}
+
+
+
+body {
+  background-color: #F5F5F5;
+}
+.headerLogo {
+  font-family: 'Cabin', sans-serif;
+  font-size: 5rem;
+}
+.navbar-default .navbar-brand:hover {
+  color: #1C73CA;
+  transition: ease-in 0.1s;
+}
+.navbar-default .navbar-brand {
+  color: white;
+}
+.navbar-default {
+  background-color: #012F57;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 3rem;
+}
+.navbar-default .navbar-nav>li>a:hover  {
+  color: #1C73CA;
+  transition: ease-in 0.1s;
+}
+.navbar {
+  background-image: none;
+  background-color: #012F57;
+}
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+.routes {
+  margin-top: 125px;
+}
+.userIcon {
+  font-size: 3rem;
+  background-color: white;
+  padding: 10px;
+  border-radius: 25px;
+  color: #1C73CA;
+}
+.userIcon:hover {
+  background-color: white;
+  color: #012F57;
+}
+
+hr {
+  color: black;
+}
+
+/* Bio */
+.bioPic {
+  width: 100%;
+}
+.bioStory {
+  background-color: rgba(255,255,255,0.2);
+}
+.resume {
+  font-family: 'News Cycle', sans-serif;
+  background-color: white;
+}
+
+/* Quotes */
+.quoteBox {
+  background-color:#012F57;
+  height: 200px;
+  color: white;
+  font-size: 3rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  overflow: auto;
+  position: relative;
+}
+.quote {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.gcQuote {
+  margin: 0;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+/* Icons */
+.fab {
+  margin-right: 2rem;
+  font-size: 4rem;
+  padding-top: 0.5rem;
+}
+
+
+
+/* Footer */
+.foot {
+  margin-top: 2rem;
+  background-color: #f2f2f2;
+}
+.contactFooter {
+  background-color:#012F57;
+  height: 5rem;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  overflow: auto;
+
+}
+
+.caro {
+  width: 100%;
+}
+
+.loginForm {
+  text-align: center;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  width: 60%;
+  margin: 0 auto;
+}
+.empHeader {
+  font-family: 'Open Sans', sans-serif; 
+  text-align: center;
+  background-color:#012F57;
+  padding: 10px 20px 30px 10px;
+  color: white;
+}
+.inputStyle {
+  width: 50rem;
+  font-family: 'Open Sans', sans-serif;
+}
+.buttonStyle {
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  border-color: black;
+}
+.newsLetterInput {
+  width: 80%;
+  height: 50px;
+  float: left;
+  font-size: 3rem;
+  font-family: 'News Cycle', sans-serif;
+}
+.newsLetterInput::placeholder {
+  padding-left: 20px;
+  font-size: 2rem;
+  font-family: 'News Cycle', sans-serif;
+}
+.submitNewsletterInput {
+  height: 50px;
+  width: 20%;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 2rem;
+}
+.submitNewsletterInput:disabled {
+  visibility: hidden;
+}
+.submitNewsletterInput:hover {
+  background-color: #012F57;
+  color: white;
+  transition: ease-in 0.1s;
+}
+.stayConnected {
+  margin-bottom: 20px;
+}
+
+
+/* Email */
+.emailHeader {
+  float: left;
+  text-align: center;
+  padding-left: 100px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.email {
+  width: 50%;
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #7abcff;
+  border: none;
+  color: white;
+}
+.emailComp {
+  width: 100%;
+  margin: 20px auto;
+  background-color: #1C73CA;
+  padding-top: 20px;
+  display: inline-block;
+  padding-bottom: 20px;
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.emailButton {
+  height: 50px;
+  background-color: white;
+  display: inline-block;
+  border: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.email::placeholder {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* Users */
+.Collapsible {
+  background-color: white;
+  padding: 10px;
+  margin-top: 20px;
+  font-family: 'News Cycle', sans-serif;
+  cursor: pointer;
+  font-weight: bold;
+}
+.userInfo {
+  font-weight: normal;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+/* Fill out form */
+.filloutForm {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 40px;
+  z-index: 10;
+}
+
+.filloutForm::placeholder {
+  font-family: 'News Cycle', sans-serif;
+  color: black;
+}
+.formOrThanks {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #F5F5F5;
+}
+.formButton {
+  width: 20%;
+  background-color: #2C3D49;
+  color: white;
+  font-family: 'Open Sans', sans-serif; 
+  padding: 10px 30px;
+}
+.formButton:hover {
+  background-color: #012F57;
+  color: white;
+}
+.formButton:disabled {
+  visibility: hidden;
+}
+
+
+/* Thanks */
+.thanksSubmit {
+  font-family: 'Open Sans', sans-serif; 
+  /* border: 5px solid red; */
+  background-color: white;
+  padding: 10px 20px 30px 10px;
+}
+.festivusCard {
+  width: 200%;
+}
+
+
+
+/* Picture boxes */
+.pictureBoxes {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.learnMoreButton {
+  border: none;
+  background-color: white;
+  color: black;
+  font-family: 'Open Sans', sans-serif; 
+  padding: 10px 30px;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.boxQuote {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 92.7%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  color: black;
+  background-color: rgba(255,255,255,0.5);
+  font-size: 4rem;
+  font-family: 'News Cycle', sans-serif;
+  text-align: center;
+}
+.learnMoreButton:hover {
+  background-color: #1C73CA;
+  transition: ease-in 0.1s;
+  color: white;
+
+}
+.boxesSection {
+  position: relative;
+}
+
+
+/* Modal */
+.styles_modal__gNwvD {
+  background-color: #1C73CA;
+  color: white;
+  font-family: 'Open Sans', sans-serif; 
+  z-index: 5; 
+}
+.newsletter {
+  text-align: center;
+}
+.newsletterForm {
+  margin-top: 10px;
+}
+.newsletterBox {
+  background-color: white;
+}
+
+
+
+
+
+
+
+/* BACKGROUNDS */
+.cd-fixed-bg {
+  min-height: 60vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cd-fixed-bg.cd-fixed-bg--1 {
+  background-image: url("https://i.ytimg.com/vi/yg-TqEFYcfM/maxresdefault.jpg");
+}
+
+.cd-fixed-bg.cd-fixed-bg--2 {
+  background-image: url("http://i1.wp.com/www.wallpaperfool.com/wp-content/uploads/TV-0002/The%20Human%20Fund%20Money%20for%20People%20-%20Seinfeld%20-%20George%20Costanza.jpg");
+}
+
+
+
+/* Logout button */
+.logoutButton {
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 5px 20px;
+  background-color: red;
+}
+.logoutBox {
+  text-align: right;
+}
+
+/* SEARCH BAR */
+.search-input > input {
+  width: 80%;
+  height: 50px;
+  float: left;
+  font-size: 3rem;
+  font-family: 'News Cycle', sans-serif;
+  border: none;
+}
+
+
+
+
+
+/* Media queries */
+@media only screen and (max-device-width: 720px) and (orientation:portrait) {
+  .headerLogo {
+    font-size: 2rem;
   }
-  to {
-    transform: rotate(360deg);
+  .contactFooter {
+    font-size: 1.3rem;
+  }
+  .conIcon {
+    font-size: 1.9rem;
+  }
+  .quoteBox {
+    font-size: 1.5rem;
+  }
+  .learnMoreButton {
+    font-size: 1rem;
+  }
+  .newsLetterInput {
+    width: 100%;
+  }
+  .newsLetterInput::placeholder {
+    font-size: 1.5rem;
+  }
+  .formButton {
+    width: 100%;
   }
 }
