@@ -1,16 +1,16 @@
 {
   "main.css": "/humanfund/static/css/main.210dc8d1.chunk.css",
-  "main.js": "/humanfund/static/js/main.32f55429.chunk.js",
-  "main.js.map": "/humanfund/static/js/main.32f55429.chunk.js.map",
+  "main.js": "/humanfund/static/js/main.c2fd9f43.chunk.js",
+  "main.js.map": "/humanfund/static/js/main.c2fd9f43.chunk.js.map",
   "static/css/1.bbf884df.chunk.css": "/humanfund/static/css/1.bbf884df.chunk.css",
   "static/js/1.9129b1e4.chunk.js": "/humanfund/static/js/1.9129b1e4.chunk.js",
   "static/js/1.9129b1e4.chunk.js.map": "/humanfund/static/js/1.9129b1e4.chunk.js.map",
   "runtime~main.js": "/humanfund/static/js/runtime~main.8ffeffa6.js",
   "runtime~main.js.map": "/humanfund/static/js/runtime~main.8ffeffa6.js.map",
-  "static/media/react-bootstrap-carousel.css": "/humanfund/static/media/react-bootstrap-carousel.21823303.eot",
-  "static/css/1.bbf884df.chunk.css.map": "/humanfund/static/css/1.bbf884df.chunk.css.map",
+  "static/media/react-bootstrap-carousel.css": "/humanfund/static/media/react-bootstrap-carousel.c746c488.woff",
   "static/css/main.210dc8d1.chunk.css.map": "/humanfund/static/css/main.210dc8d1.chunk.css.map",
+  "static/css/1.bbf884df.chunk.css.map": "/humanfund/static/css/1.bbf884df.chunk.css.map",
   "index.html": "/humanfund/index.html",
-  "precache-manifest.29c0f8778b5f009beb17ac66e03fd1ea.js": "/humanfund/precache-manifest.29c0f8778b5f009beb17ac66e03fd1ea.js",
+  "precache-manifest.dd2f2d468880d108aa6b2650e777faa0.js": "/humanfund/precache-manifest.dd2f2d468880d108aa6b2650e777faa0.js",
   "service-worker.js": "/humanfund/service-worker.js"
 }

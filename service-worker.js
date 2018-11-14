@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/humanfund/precache-manifest.29c0f8778b5f009beb17ac66e03fd1ea.js"
+  "/humanfund/precache-manifest.dd2f2d468880d108aa6b2650e777faa0.js"
 );
 
 workbox.clientsClaim();

@@ -20,15 +20,15 @@ self.__precacheManifest = [
     "url": "/humanfund/static/js/runtime~main.8ffeffa6.js"
   },
   {
-    "revision": "32f55429e028255187be",
-    "url": "/humanfund/static/js/main.32f55429.chunk.js"
+    "revision": "c2fd9f43db2bf17ff4be",
+    "url": "/humanfund/static/js/main.c2fd9f43.chunk.js"
   },
   {
     "revision": "9129b1e44be9853660c9",
     "url": "/humanfund/static/js/1.9129b1e4.chunk.js"
   },
   {
-    "revision": "32f55429e028255187be",
+    "revision": "c2fd9f43db2bf17ff4be",
     "url": "/humanfund/static/css/main.210dc8d1.chunk.css"
   },
   {
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/humanfund/static/css/1.bbf884df.chunk.css"
   },
   {
-    "revision": "dc2cc0f93a32fba95ba233970270d044",
+    "revision": "6f3f9582a0d0adc5943d4d9b38db6e72",
     "url": "/humanfund/index.html"
   }
 ];
