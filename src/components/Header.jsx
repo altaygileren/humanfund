@@ -8,18 +8,18 @@ const Header = () => {
                 <Navbar collapseOnSelect fixedTop>
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <a href="/" className="headerLogo">The Human Fund</a>
+                            <a href="/humanfund" className="headerLogo">The Human Fund</a>
                         </Navbar.Brand>
                         <Navbar.Toggle />
                     </Navbar.Header>
                     <Navbar.Collapse>
                         <Nav>
-                            <NavItem eventKey={1} href="/bio">
+                            <NavItem eventKey={1} href="/humanfund/bio">
                                 Bio
       </NavItem>
                         </Nav>
                         <Nav pullRight>
-                            <NavItem eventKey={1} href="/employees">
+                            <NavItem eventKey={1} href="/humanfund/employees">
                                 <Glyphicon className="userIcon" glyph="user" />
                             </NavItem>
                         </Nav>
