@@ -22,8 +22,8 @@ class App extends Component {
               <Switch location={location}>
                 <Route exact path="/"
                   component={() => <Home/>} />
-                <Route path={"/bio"} component={Bio} />
-                <Route path={"/employees"} component={Employee} />
+                <Route path={"/humanfund/bio"} component={Bio} />
+                <Route path={"/humanfund/employees"} component={Employee} />
               </Switch>
             )} />
           </Router>
